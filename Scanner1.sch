@@ -1083,12 +1083,10 @@ Wire Wire Line
 	9350 4500 9100 4500
 Wire Wire Line
 	9100 4950 9350 4950
-Text GLabel 6050 3250 2    50   Input ~ 0
+Text GLabel 6050 2650 2    50   Input ~ 0
 SW_0
 Text GLabel 6050 3350 2    50   Input ~ 0
 SW_1
-Wire Wire Line
-	6050 3250 5750 3250
 Wire Wire Line
 	5750 3350 6050 3350
 Text GLabel 6050 3050 2    50   Output ~ 0
@@ -1155,7 +1153,7 @@ Wire Wire Line
 	9800 5400 10050 5400
 Wire Wire Line
 	9800 5850 9800 6000
-NoConn ~ 5750 2650
+NoConn ~ 5750 3250
 NoConn ~ 5750 3550
 NoConn ~ 5750 3650
 NoConn ~ 5750 4850
@@ -1369,4 +1367,6 @@ F 3 "" H 5200 1200 50  0001 C CNN
 $EndComp
 Text Label 1550 6150 1    50   ~ 0
 VBUS
+Wire Wire Line
+	6050 2650 5750 2650
 $EndSCHEMATC
